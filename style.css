@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("./img/bg.jpg");
+    background-blend-mode: darken;
+    text-align: center;         /* make sure IE centers the page too */
+}
+ 
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+}
+ 
+#content {
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+    font-family: 'Raleway';
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+    height: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ 
+#menu {
+    float: left;
+    border: 1px solid #000;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ 
+#menu a:hover {
+    background-color: #009FC1;
+}
+ 
+#userbar {
+    background-color: #fff;
+    float: right;
+}
+
+/* meine Einfügungen */
+
+.dashboard {
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    overflow: hidden;
+}
+
+table {
+    font-family: 'Raleway';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* enden hier */
+ 
+#footer {
+    clear: both;
+}
+ 
+/* Begin font styles */
+h1, #footer {
+    font-family: 'Raleway';
+    color: #F1F3F1;
+}
+ 
+h3 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+.item {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: 'Raleway';
+    padding: 3px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
